@@ -2,7 +2,7 @@
   "name": "crm-mongo",
   "version": "0.1.0",
   "private": true,
-  "proxy": "http://localhost:5000",
+  "proxy": "http://localhost:4200",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.5",
@@ -12,6 +12,7 @@
     "mobx": "^6.1.8",
     "mobx-react": "^7.1.0",
     "mongoose": "^5.12.2",
+    "proxy": "^1.0.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-router-dom": "^5.2.0",
@@ -20,11 +21,14 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
-    "start": "node server.js",
-    "start-client": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test-client": "react-scripts test",
+    "test": "jest --runInBand server",
+    "eject": "react-scripts eject",
+    "start": "node server.js"
+  },
+  "engine": {
+    "node": "12.18.3"
   },
   "eslintConfig": {
     "extends": [
