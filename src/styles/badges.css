@@ -1,0 +1,175 @@
+#emailContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10%;
+    box-shadow: 1em;
+}
+
+#emailBadge{
+    background-color:rgb(52, 152, 219);
+    width: 7vw;
+    height: 13vh;
+    border-radius: 50%;
+    display: grid;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fa-envelope{
+    color: white;
+    align-content: center;
+    font-size: 3.75em;
+    align-self: center;
+    justify-self: center;
+}
+
+
+#textContainer{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+
+#emailNum{
+    font-size: 2.5em;
+    margin-left: 0.8em;
+    align-self: center;
+
+}
+    
+#emailText{
+    font-weight: 600;
+    font-size: 1em;
+    margin-left: 1.8em;
+    
+}
+
+#hotContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10%;
+    box-shadow: 1em;
+}
+
+#hotBadge{
+    background-color: rgb(241, 196, 15);
+    width: 7vw;
+    height: 13vh;
+    border-radius: 50%;
+    display: grid;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fa-globe-americas{
+    color: white;
+    align-content: center;
+    font-size: 3.75em;
+    align-self: center;
+    justify-self: center;
+}
+
+#textContainer {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+    
+#hotCountry{
+    font-size: 2.5em;
+    font-weight: 500;
+    align-self: center;
+    margin-left: 0.8em;
+}
+
+#hotText{
+      font-weight: 600;
+      margin-left: 2.2em;
+}
+
+
+
+
+#newClientText {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+    
+
+#leftBText{
+    font-weight: 600;
+    margin-left: 0.4em;
+
+}
+
+.fa-chart-line{
+    color: white;
+    align-content: center;
+    font-size: 3.75em;
+    align-self: center;
+    justify-self: center;
+}
+
+#newClientBadge{
+    background-color: rgb(46, 204, 113);
+    width: 7vw;
+    height: 13vh;
+    border-radius: 50%;
+    display: grid;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+    
+}
+
+#clientContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10%;
+    box-shadow: 1em;
+}
+
+
+.num{
+    font-size: 2.5em;
+    margin-left: 1em;
+    align-self: center;
+
+}
+
+
+#outStandContainer{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    margin: 10%;
+    box-shadow: 1em;
+}
+
+#outBadge{
+    background-color: rgb(231, 76, 60);
+    width: 7vw;
+    height: 13vh;
+    border-radius: 50%;
+    display: grid;
+    box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.fa-user-tie{
+    color: white;
+    align-content: center;
+    font-size: 3.75em;
+    align-self: center;
+    justify-self: center;
+}
+
+#out-text-container {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    }
+    
+#outStandNum{
+    font-size: 2.5em;
+    align-self: center;
+    margin-left: 0.8em;
+}
+    
+#outStandText{
+      font-weight: 600;
+      margin-left: 0.6em
+    
+}

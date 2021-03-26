@@ -1,0 +1,94 @@
+.selectInput {
+    width: 10vw;
+    border: none;
+    border-bottom: 2px solid rgba(209, 207, 207, 0.75);
+    outline: none;
+    color: black;
+    background-color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+.selectInput::placeholder{
+font-size: 0.8em;
+
+}
+
+.addClientInput {
+    width: 10vw;
+    margin-right: 3vw;
+    border: none;
+    border-bottom: 2px solid rgba(209, 207, 207, 0.75);
+    outline: none;
+    color: black;
+    background-color: #ecf0f1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+#addClientButton {
+    background-color: #F7CE3E;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    font-size: 1em;
+    width: 18.5em;
+    height: 2.5em;
+    border: none; 
+    border-radius: 2px 2px 2px 2px;
+    margin-top: 2em;
+    margin-left: 0.8em
+
+}
+
+.addwrapper{
+display: grid;
+grid-template-columns: 1fr 1fr 8fr;
+margin: 1em;
+}
+
+#Add-client{
+margin: 2em;
+}
+
+#Update{
+    margin: 2em;
+}
+
+h3{
+    margin: 1em;
+    margin-bottom: 1.5em;
+
+}
+.updateWrapper{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 7fr;
+    margin: 1.2em;
+    align-items: end;
+    justify-items: start;
+
+
+}
+
+.update-btn-text{
+    margin-left: 2em;
+    color :rgb(247, 206, 62);
+    cursor:pointer;
+    font-weight: 800;
+    font-size: 0.85em;
+}
+
+#declare{
+    margin-left: 3.3em;
+    margin-top: 0.8em;
+}
+
+.done{
+    cursor: not-allowed;
+    color: gray;
+    font-size: 0.8em;
+    margin-left: 2em;
+    font-weight: 600;
+}

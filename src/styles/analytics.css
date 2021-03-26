@@ -1,0 +1,43 @@
+#analytics-container{
+    display: grid;
+    grid-template-rows: 1fr 4fr;
+}
+
+#badges-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+#topEmpHeader{
+        margin-left: 3%;
+        margin-bottom:5%;
+        font-size: 1.2em;
+        font-weight: 700;
+}
+
+#employeesToRender{
+    margin-left: 27%;
+
+}
+
+#chartsTop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#salesBy{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 3%;
+}
+
+#sales-by-selection{
+    margin-left: 5%;
+}
+
+#salesByMonthHeader{
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-left: 2%;
+}

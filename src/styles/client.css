@@ -1,0 +1,14 @@
+.client {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    border-bottom: 1.75px solid rgba(209, 207, 207, 0.75);
+    align-items: center;
+    height: 2.5em;
+    
+}
+
+.client span{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
