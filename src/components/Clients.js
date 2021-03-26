@@ -19,7 +19,7 @@ function Clients(props) {
     }
 
     useEffect(async () => {
-        let clientsData = await axios.get('/clients')
+        let clientsData = await axios.get('http://localhost:4200/clients')
         props.clientsStore.clients = clientsData.data
     }, [])
 
