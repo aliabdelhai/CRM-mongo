@@ -11,7 +11,7 @@ function Client(props) {
 
     const getFormmatedDate = date => {
         date = new Date(date);
-        let day = date.getDate() - 1;
+        let day = date.getDate() ;
         const month = date.toLocaleString('en-us', { month: 'long' });
         let year = date.getFullYear();
         return `${month} ${day}, ${year}`;
