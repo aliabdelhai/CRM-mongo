@@ -5,12 +5,10 @@ const app = express()
 const mongoose = require('mongoose')
 const api = require('./server/routes/api')
 
-// mongoose.connect('mongodb://localhost/crm-mongo', { useNewUrlParser: true })
 const PORT = process.env.PORT || 4200
 const URI = process.env.MONGODB_URI || 'mongodb://localhost/crm-mongo'
 
-const uri = "mongodb+srv://AliAbed:hL6QVC99JuYjB9wh@cluster0.g0jq7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
-mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true, connectTimeoutMS: 5000, serverSelectionTimeoutMS: 5000 })
+mongoose.connect(URI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true, connectTimeoutMS: 5000, serverSelectionTimeoutMS: 5000 })
 .then(function(){
     console.log("Db connected")
 })

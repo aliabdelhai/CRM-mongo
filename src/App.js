@@ -13,7 +13,7 @@ function App() {
     <Router>
       <Navbar />
       <Route exact path="/" render={() => <Clients />} />
-      <Route exact path="/clients" render={() => <Clients /> }/>
+      <Route exact path="/clientss" render={() => <Clients /> }/>
       <Route exact path="/actions" render={() => <Actions /> }/>
       <Route exact path="/analytics" render={() => <Analytics /> }/>
     </Router>
