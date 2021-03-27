@@ -9,7 +9,7 @@ function NavBar() {
             <div className="nav-wrapper">
                 <div className="left-side">
                     <div className="nav-link-wrapper">
-                        <div><Link to="/clients">clients</Link></div>
+                        <div><Link to="/clientss">clients</Link></div>
                     </div>
                     <div className="nav-link-wrapper">
                         <div><Link to="/actions">actions</Link></div>
