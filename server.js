@@ -22,7 +22,8 @@ app.get('/*', function (req, res) {
     res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
-mongoose.connect(URI, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true, connectTimeoutMS: 5000, serverSelectionTimeoutMS: 5000 })
+const uri = "mongodb+srv://AliAbed:hL6QVC99JuYjB9wh@cluster0.g0jq7.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false, useCreateIndex: true, connectTimeoutMS: 5000, serverSelectionTimeoutMS: 5000 })
 .then(function(){
     app.listen(PORT, function(){
         console.log(`Server is up and running on port: ${PORT}`);
