@@ -23,7 +23,7 @@ mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useFind
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 app.use(express.static('node_modules'));
-app.use(express.static('build'));
+app.use(express.static(path.join(__dirname, 'build')));
 app.use('/', api);
 
 
