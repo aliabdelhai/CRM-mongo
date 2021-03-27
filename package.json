@@ -25,7 +25,8 @@
     "test-client": "react-scripts test",
     "test": "jest --runInBand server",
     "eject": "react-scripts eject",
-    "start": "node server.js"
+    "start": "node server.js",
+    "develop":"react-scripts start"
   },
   "engine": {
     "node": "12.18.3"

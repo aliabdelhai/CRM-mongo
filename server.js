@@ -6,8 +6,8 @@ const mongoose = require('mongoose')
 const api = require('./server/routes/api')
 
 // mongoose.connect('mongodb://localhost/crm-mongo', { useNewUrlParser: true })
-PORT = process.env.PORT || 4200,
-URI = process.env.MONGODB_URI || 'mongodb://localhost/crm-mongo',
+const PORT = process.env.PORT || 4200
+const URI = process.env.MONGODB_URI || 'mongodb://localhost/crm-mongo'
 
 
 

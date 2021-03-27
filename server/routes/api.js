@@ -78,5 +78,12 @@ router.put('/client/:name', async (req, res) => {
     }
 })
 
+router.delete('/client/:id', async (req, res) => {
+    const clientID = req.params.id
+    const client = await Client.findOneAndDelete({_id: clientID})
+    res.send(client)
+})
+
+
 
 module.exports = router

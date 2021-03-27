@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { observer, inject } from 'mobx-react'
 import '../styles/client.css';
 import Popup from "./Popup";
+import axios from "axios";
 
 function Client(props) {
 
@@ -21,6 +22,11 @@ function Client(props) {
     }
 
 
+    const deleteClient = () => {
+        props.clientsStore.deleteClient(props.client._id)
+    }
+
+
     return (
         <div>
             {showUp ? <Popup close={handlePopUp} name={props.client.name} country={props.client.country} client={props.client} /> : null}
@@ -31,6 +37,7 @@ function Client(props) {
                 <span>{props.client.emailType}</span>
                 <span>{sold}</span>
                 <span>{props.client.owner}</span>
+                <span><i class="fas fa-trash" onClick={deleteClient}></i></span>
             </div>
         </div>
     )
